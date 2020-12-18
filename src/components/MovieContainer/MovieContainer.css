@@ -1,0 +1,13 @@
+.MovieContainer > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width :839px ){
+    .MovieContainer{
+        margin-left: -42px;
+        justify-content: space-around;
+    }
+}
+
